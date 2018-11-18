@@ -5,4 +5,4 @@ The Needleman-Wunsch and Hirschberg algorithms are implemented in C for comparis
 These are longest common substring algorithms, which find the longest string common to two strings.
 An application for this is pairwise sequence alignment of DNA, RNA, or amino acids in bioinformatics.
 Needleman-Wunsch takes O(mn) time and O(mn) space, where m and n are the lengths of the strings being compared.
-Hirschberg takes O(mn) time and O(m+n) space.
+Hirschberg takes O(mn) time and O(min(m,n)) space.
