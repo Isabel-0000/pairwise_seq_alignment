@@ -8,7 +8,4 @@ Needleman-Wunsch takes O(mn) time and O(mn) space, where m and n are the lengths
 Hirschberg takes O(mn) time and O(min(m,n)) space.
 
 To use, run the executables hirschberg and needleman-wunsch or compile algorithm classes with their runners. 
-# time 
-  was used to find CPU efficiency (user + sys)
-# valgrind 
-  was used to find memory usage.
+time was run to find CPU efficiency (user + sys) and valgrind was used to find memory usage.
